@@ -1,0 +1,23 @@
+.card {
+  background-color: orangered;
+  color: black;
+  margin: 15px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+font-weight: 800;
+font-size: 15px;
+}
+.card img {
+  width: 75px;
+  height: 75px;
+  background-color:aquamarine ;
+  border-radius: 20px;
+}
+.card img:hover{
+    scale: 1.4;
+}
